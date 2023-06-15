@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a91d237d-80c2-4483-86c2-d23dd22d05b8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AddWindow.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Produckt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Institute management/DBHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Institute management/DBHandling.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DBHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DBHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Discipline.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyActionListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Speciality.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Structure.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DBHandling.java</url>
-          <line>11</line>
+          <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

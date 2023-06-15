@@ -2,8 +2,12 @@ import java.sql.*;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DBHandling {
+    Produckt produckt;
+    HashMap<Integer,Produckt> listOfProdukt = new HashMap<>();
     private Connection connection;
     private Statement statement;
     public DBHandling() {
@@ -14,7 +18,8 @@ public class DBHandling {
 
             Class.forName("net.sourceforge.jtds.jdbc.Driver").getDeclaredConstructor().newInstance();
 
-            connection = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.18.200:1433;databaseName=Paint_Ua", "sa", "xthyfz_htxrf");
+          //  connection = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.18.200:1433;databaseName=Paint_Ua", "sa", "xthyfz_htxrf");
+            connection = DriverManager.getConnection("jdbc:jtds:sqlserver://192.168.18.200:1433;databaseName=Paint_Ua", "buh", "buh");
 
             try {
                 statement = connection.createStatement();
